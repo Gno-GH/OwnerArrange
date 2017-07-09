@@ -82,3 +82,8 @@
     >&nbsp;&nbsp;&nbsp;&nbsp;for(j=i;j<100;j+=i)<br>
     >&nbsp;&nbsp;&nbsp;&nbsp;flag[j/32]|=(1<<(j%32));//将所有i的倍数置为1<br>
     >}<br>
+###深拷贝和浅拷贝(C)###
+    深拷贝：内容拷贝 地址不发生变化<br>
+    浅拷贝：完全拷贝 地址发生变化<br>
+    结构体使用memcpy和结构体直接赋值属于浅拷贝<br>
+    串使用memcpy和strcpy使用深拷贝<br>
